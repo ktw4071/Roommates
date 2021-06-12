@@ -1,4 +1,5 @@
 # Firebase
+/roommates/.firebase
 .firebaserc
 firebase.json
 firestore.indexes.json
