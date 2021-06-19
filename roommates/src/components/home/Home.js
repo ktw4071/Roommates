@@ -4,22 +4,6 @@ import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import Link from '@material-ui/core/Link';
-import Typography from '@material-ui/core/Typography';
-
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://github.com/ktw4071/Roommates">
-        Bayshore Wizards
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
 
 export default function Home() {
   const useStyles = makeStyles((theme) => ({
@@ -71,7 +55,6 @@ export default function Home() {
           </Grid>
         </Grid>
         <Box pt={4}>
-          <Copyright />
         </Box>
       </Container>
     </main>
